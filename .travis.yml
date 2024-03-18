@@ -8,5 +8,5 @@ install:
   - pip install --upgrade virtualenv
 
 script:
-  - pyb
+  - src.unittest.python.openskyData_tests
 
