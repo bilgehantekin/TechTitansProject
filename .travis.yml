@@ -1,7 +1,13 @@
 language: python
 
+python:
+  - "3.11.5"
+
 install:
   - pip install pybuilder
-  
+
+pybuilder:
+  - "0.13.11"
+    
 script:
   - pyb
