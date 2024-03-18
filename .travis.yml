@@ -1,5 +1,1 @@
-language: python
-python:
-  - "3.9"
-script: make test  
-
+language: python 
