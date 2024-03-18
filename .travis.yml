@@ -3,6 +3,8 @@ language: python
 python:
   - "3.8"
 
-virtualenv:
-  system_site_packages: true
+install:
+  - pip install pybuilder
+  - python setup.py -q install
+
 
