@@ -4,6 +4,6 @@ python:
 install: "pip install https://github.com/openskynetwork/opensky-api/archive/master.zip#subdirectory=python"
 script:
   - cd src
-  - python src/unittest/python/openskyData_tests.py
+  - python unittest/python/openskyData_tests.py
 
 
