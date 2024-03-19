@@ -3,7 +3,6 @@ python:
   - "3.6"
 install: "pip install https://github.com/openskynetwork/opensky-api/archive/master.zip#subdirectory=python"
 script:
-  - cd src/main/python
   - python src/unittest/python/openskyData_tests.py
 
 
