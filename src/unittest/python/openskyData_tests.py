@@ -2,13 +2,6 @@ import unittest
 from unittest.mock import MagicMock, patch
 import json
 import time
-import sys
-import os
-# Test edilen kodun olduğu dizini bul
-src_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src'))
-
-# Test edilen kodun olduğu dizini sys.path'e ekle
-sys.path.append(src_dir)
 from main.python.openskyData import collect_and_save_data
 
 class TestAircraftDataCollection(unittest.TestCase):
