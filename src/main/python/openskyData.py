@@ -1,6 +1,6 @@
 import json
 import time
-from src.main.python.openskyData import OpenSkyApi
+from opensky_api import OpenSkyApi
 
 first_data_received = False
 
