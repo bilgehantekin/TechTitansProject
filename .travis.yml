@@ -1,10 +1,7 @@
 language: python
-
-install: 
-  - "pip install -r requirements.txt"
-  - "pip install --pre pybuilder"
-
+python:
+  - "3.6"
 script:
-  - pyb 
+ - python openskyData_tests.py
 
 
