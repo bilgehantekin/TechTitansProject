@@ -1,9 +1,6 @@
 language: python
 
-install:
-  - pip install pybuilder
-
 script:
-  - pyb run_unit_tests
+  - pyb 
 
 
